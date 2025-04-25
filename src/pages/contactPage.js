@@ -2,17 +2,14 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import Image from "react-bootstrap/Image";
 
 const ContactPage = () => {
     return (
         <div className="contactPage min-vh-100">
             <Container className="text-center my-5 p-5 shadow">
-                <h5>Placeholder</h5>
-                <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" fill="currentColor" className="bi bi-person-circle" viewBox="0 0 16 16">
-                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
-                    <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
-                </svg>
-                <h1 className="my-5">Let's get in touch</h1>
+                <h1 className="my-3"><b>Let's get in touch</b></h1>
+                <Image className="my-3" height="300" width="300" src={require('../img/dz3q_x3xa_230125.jpg')} />
                 <Row className="w-50 p-3 mx-auto">
                     <Col>
                         <a href="/" className="text-dark">
