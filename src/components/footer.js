@@ -21,6 +21,8 @@ const Footer = () => {
                     <Col>
                         <h3>Contact Me</h3>
                         <p>Email: vincent.wco@gmail.com</p>
+                        <p>Github: github.com/Vincent-Wong0925</p>
+                        <p>LinkedIn: www.linkedin.com/in/vincent-wong-a90b6b262</p>
                     </Col>
                 </Row>
             </Container>
