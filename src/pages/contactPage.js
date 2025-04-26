@@ -10,7 +10,7 @@ const ContactPage = () => {
             <Container className="text-center my-5 p-5 shadow">
                 <h1 className="my-3"><b>Let's get in touch</b></h1>
                 <Image className="my-3" height="300" width="300" src={require('../img/dz3q_x3xa_230125.jpg')} />
-                <Row className="w-50 p-3 mx-auto">
+                <Row className="w-75 p-3 mx-auto" xs={3}>
                     <Col>
                         <a href="mailto:vincent.wco@gmail.com" className="text-dark">
                             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">

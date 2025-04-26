@@ -9,7 +9,7 @@ const Projects = () => {
     return (
         <Container className="my-3">
             <h1>Projects</h1>
-            <Row md={2} className="gy-3 my-3">
+            <Row xs={1} lg={2} className="gy-3 my-3">
                 <Col className="d-flex">
                     <Card className="p-3 shadow">
                         <Card.Img src={require('../img/portfolio.png')} />

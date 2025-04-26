@@ -11,7 +11,7 @@ const Skills = () => {
     return (
         <Container className="my-3">
             <h1>Skills</h1>
-            <Row md={4} className="gy-3">
+            <Row xs={1} sm={2} lg={4} className="gy-3">
                 <Col>
                     <Card className="shadow">
                         <Card.Body className="d-flex p-2 align-items-center">

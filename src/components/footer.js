@@ -8,7 +8,7 @@ const Footer = () => {
     return (
         <footer>
             <Container className="p-4 mt-3 bg-dark text-white" fluid>
-                <Row>
+                <Row xs={1} md={3} className="gy-5">
                     <Col>
                         <h2>Vincent Wong</h2>
                     </Col>
